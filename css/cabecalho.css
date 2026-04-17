@@ -1,0 +1,14 @@
+.cabecalho{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: var(--bg-dark-med);
+    width: 100%;
+    height: 5%;
+}
+
+@media(orientation: landscape){
+    .cabecalho{
+    background-color: red;
+    }
+}
